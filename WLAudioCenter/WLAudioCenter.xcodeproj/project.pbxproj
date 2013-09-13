@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF85677917E044390034AB79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF85677817E044390034AB79 /* Foundation.framework */; };
+		EF85677E17E044390034AB79 /* WLAudioCenter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = EF85677D17E044390034AB79 /* WLAudioCenter.h */; };
+		EF85678017E044390034AB79 /* WLAudioCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85677F17E044390034AB79 /* WLAudioCenter.m */; };
+		EF85679417E0488D0034AB79 /* WLAudioObject.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85679317E0488D0034AB79 /* WLAudioObject.m */; };
+		EF85679917E05DC90034AB79 /* WLAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85679817E05DC90034AB79 /* WLAudioRecorder.m */; };
+		EF85679C17E05DDC0034AB79 /* WLAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85679B17E05DDC0034AB79 /* WLAudioPlayer.m */; };
+		EF8567F117E176B10034AB79 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567A317E176B10034AB79 /* bitstream.c */; };
+		EF8567F217E176B10034AB79 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567A517E176B10034AB79 /* common.c */; };
+		EF8567F317E176B10034AB79 /* dct64_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567A817E176B10034AB79 /* dct64_i386.c */; };
+		EF8567F417E176B10034AB79 /* decode_i386.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567AA17E176B10034AB79 /* decode_i386.c */; };
+		EF8567F517E176B10034AB79 /* encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567AC17E176B10034AB79 /* encoder.c */; };
+		EF8567F617E176B10034AB79 /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567AE17E176B10034AB79 /* fft.c */; };
+		EF8567F717E176B10034AB79 /* gain_analysis.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567B017E176B10034AB79 /* gain_analysis.c */; };
+		EF8567F817E176B10034AB79 /* id3tag.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567BD17E176B10034AB79 /* id3tag.c */; };
+		EF8567F917E176B10034AB79 /* interface.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567BF17E176B10034AB79 /* interface.c */; };
+		EF8567FA17E176B10034AB79 /* lame.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567C417E176B10034AB79 /* lame.c */; };
+		EF8567FB17E176B10034AB79 /* layer1.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567C917E176B10034AB79 /* layer1.c */; };
+		EF8567FC17E176B10034AB79 /* layer2.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567CB17E176B10034AB79 /* layer2.c */; };
+		EF8567FD17E176B10034AB79 /* layer3.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567CD17E176B10034AB79 /* layer3.c */; };
+		EF8567FE17E176B10034AB79 /* mpglib_interface.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567D217E176B10034AB79 /* mpglib_interface.c */; };
+		EF8567FF17E176B10034AB79 /* newmdct.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567D317E176B10034AB79 /* newmdct.c */; };
+		EF85680017E176B10034AB79 /* presets.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567D617E176B10034AB79 /* presets.c */; };
+		EF85680117E176B10034AB79 /* psymodel.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567D717E176B10034AB79 /* psymodel.c */; };
+		EF85680217E176B10034AB79 /* quantize.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567D917E176B10034AB79 /* quantize.c */; };
+		EF85680317E176B10034AB79 /* quantize_pvt.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567DB17E176B10034AB79 /* quantize_pvt.c */; };
+		EF85680417E176B10034AB79 /* reservoir.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567DD17E176B10034AB79 /* reservoir.c */; };
+		EF85680517E176B10034AB79 /* set_get.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567DF17E176B10034AB79 /* set_get.c */; };
+		EF85680617E176B10034AB79 /* tabinit.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567E117E176B10034AB79 /* tabinit.c */; };
+		EF85680717E176B10034AB79 /* tables.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567E317E176B10034AB79 /* tables.c */; };
+		EF85680817E176B10034AB79 /* takehiro.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567E517E176B10034AB79 /* takehiro.c */; };
+		EF85680917E176B10034AB79 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567E617E176B10034AB79 /* util.c */; };
+		EF85680A17E176B10034AB79 /* vbrquantize.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567E817E176B10034AB79 /* vbrquantize.c */; };
+		EF85680B17E176B10034AB79 /* VbrTag.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567EA17E176B10034AB79 /* VbrTag.c */; };
+		EF85680C17E176B10034AB79 /* xmm_quantize_sub.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567EE17E176B10034AB79 /* xmm_quantize_sub.c */; };
+		EF85680D17E176B10034AB79 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = EF8567EF17E176B10034AB79 /* version.c */; };
+		EF85681317E2EE940034AB79 /* WLFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF85681217E2EE940034AB79 /* WLFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EF85677317E044390034AB79 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				EF85677E17E044390034AB79 /* WLAudioCenter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EF85677517E044390034AB79 /* libWLAudioCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWLAudioCenter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF85677817E044390034AB79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF85677C17E044390034AB79 /* WLAudioCenter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WLAudioCenter-Prefix.pch"; sourceTree = "<group>"; };
+		EF85677D17E044390034AB79 /* WLAudioCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAudioCenter.h; sourceTree = "<group>"; };
+		EF85677F17E044390034AB79 /* WLAudioCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLAudioCenter.m; sourceTree = "<group>"; };
+		EF85679017E046860034AB79 /* WLAudioCenterConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAudioCenterConfig.h; sourceTree = "<group>"; };
+		EF85679117E047A50034AB79 /* WLAudioCenterProcotols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLAudioCenterProcotols.h; sourceTree = "<group>"; };
+		EF85679217E0488D0034AB79 /* WLAudioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAudioObject.h; sourceTree = "<group>"; };
+		EF85679317E0488D0034AB79 /* WLAudioObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAudioObject.m; sourceTree = "<group>"; };
+		EF85679717E05DC90034AB79 /* WLAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAudioRecorder.h; sourceTree = "<group>"; };
+		EF85679817E05DC90034AB79 /* WLAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAudioRecorder.m; sourceTree = "<group>"; };
+		EF85679A17E05DDC0034AB79 /* WLAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLAudioPlayer.h; sourceTree = "<group>"; };
+		EF85679B17E05DDC0034AB79 /* WLAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLAudioPlayer.m; sourceTree = "<group>"; };
+		EF8567A317E176B10034AB79 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		EF8567A417E176B10034AB79 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		EF8567A517E176B10034AB79 /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		EF8567A617E176B10034AB79 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		EF8567A717E176B10034AB79 /* configMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configMS.h; sourceTree = "<group>"; };
+		EF8567A817E176B10034AB79 /* dct64_i386.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dct64_i386.c; sourceTree = "<group>"; };
+		EF8567A917E176B10034AB79 /* dct64_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dct64_i386.h; sourceTree = "<group>"; };
+		EF8567AA17E176B10034AB79 /* decode_i386.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decode_i386.c; sourceTree = "<group>"; };
+		EF8567AB17E176B10034AB79 /* decode_i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode_i386.h; sourceTree = "<group>"; };
+		EF8567AC17E176B10034AB79 /* encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoder.c; sourceTree = "<group>"; };
+		EF8567AD17E176B10034AB79 /* encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoder.h; sourceTree = "<group>"; };
+		EF8567AE17E176B10034AB79 /* fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fft.c; sourceTree = "<group>"; };
+		EF8567AF17E176B10034AB79 /* fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		EF8567B017E176B10034AB79 /* gain_analysis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gain_analysis.c; sourceTree = "<group>"; };
+		EF8567B117E176B10034AB79 /* gain_analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gain_analysis.h; sourceTree = "<group>"; };
+		EF8567B217E176B10034AB79 /* huffman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = huffman.h; sourceTree = "<group>"; };
+		EF8567B417E176B10034AB79 /* choose_table.nas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = choose_table.nas; sourceTree = "<group>"; };
+		EF8567B517E176B10034AB79 /* cpu_feat.nas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cpu_feat.nas; sourceTree = "<group>"; };
+		EF8567B617E176B10034AB79 /* fft.nas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fft.nas; sourceTree = "<group>"; };
+		EF8567B717E176B10034AB79 /* fft3dn.nas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fft3dn.nas; sourceTree = "<group>"; };
+		EF8567B817E176B10034AB79 /* fftfpu.nas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fftfpu.nas; sourceTree = "<group>"; };
+		EF8567B917E176B10034AB79 /* fftsse.nas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fftsse.nas; sourceTree = "<group>"; };
+		EF8567BA17E176B10034AB79 /* ffttbl.nas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ffttbl.nas; sourceTree = "<group>"; };
+		EF8567BB17E176B10034AB79 /* nasm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nasm.h; sourceTree = "<group>"; };
+		EF8567BC17E176B10034AB79 /* scalar.nas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scalar.nas; sourceTree = "<group>"; };
+		EF8567BD17E176B10034AB79 /* id3tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = id3tag.c; sourceTree = "<group>"; };
+		EF8567BE17E176B10034AB79 /* id3tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id3tag.h; sourceTree = "<group>"; };
+		EF8567BF17E176B10034AB79 /* interface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = interface.c; sourceTree = "<group>"; };
+		EF8567C017E176B10034AB79 /* interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interface.h; sourceTree = "<group>"; };
+		EF8567C117E176B10034AB79 /* l2tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l2tables.h; sourceTree = "<group>"; };
+		EF8567C217E176B10034AB79 /* l3side.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = l3side.h; sourceTree = "<group>"; };
+		EF8567C317E176B10034AB79 /* lame-analysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "lame-analysis.h"; sourceTree = "<group>"; };
+		EF8567C417E176B10034AB79 /* lame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lame.c; sourceTree = "<group>"; };
+		EF8567C517E176B10034AB79 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		EF8567C617E176B10034AB79 /* lame_global_flags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame_global_flags.h; sourceTree = "<group>"; };
+		EF8567C717E176B10034AB79 /* lameconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lameconfig.h; sourceTree = "<group>"; };
+		EF8567C817E176B10034AB79 /* lameerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lameerror.h; sourceTree = "<group>"; };
+		EF8567C917E176B10034AB79 /* layer1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = layer1.c; sourceTree = "<group>"; };
+		EF8567CA17E176B10034AB79 /* layer1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer1.h; sourceTree = "<group>"; };
+		EF8567CB17E176B10034AB79 /* layer2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = layer2.c; sourceTree = "<group>"; };
+		EF8567CC17E176B10034AB79 /* layer2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer2.h; sourceTree = "<group>"; };
+		EF8567CD17E176B10034AB79 /* layer3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = layer3.c; sourceTree = "<group>"; };
+		EF8567CE17E176B10034AB79 /* layer3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer3.h; sourceTree = "<group>"; };
+		EF8567CF17E176B10034AB79 /* machine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine.h; sourceTree = "<group>"; };
+		EF8567D017E176B10034AB79 /* mpg123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpg123.h; sourceTree = "<group>"; };
+		EF8567D117E176B10034AB79 /* mpglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpglib.h; sourceTree = "<group>"; };
+		EF8567D217E176B10034AB79 /* mpglib_interface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mpglib_interface.c; sourceTree = "<group>"; };
+		EF8567D317E176B10034AB79 /* newmdct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = newmdct.c; sourceTree = "<group>"; };
+		EF8567D417E176B10034AB79 /* newmdct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newmdct.h; sourceTree = "<group>"; };
+		EF8567D517E176B10034AB79 /* Precompile_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Precompile_Common.h; sourceTree = "<group>"; };
+		EF8567D617E176B10034AB79 /* presets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = presets.c; sourceTree = "<group>"; };
+		EF8567D717E176B10034AB79 /* psymodel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = psymodel.c; sourceTree = "<group>"; };
+		EF8567D817E176B10034AB79 /* psymodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psymodel.h; sourceTree = "<group>"; };
+		EF8567D917E176B10034AB79 /* quantize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quantize.c; sourceTree = "<group>"; };
+		EF8567DA17E176B10034AB79 /* quantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantize.h; sourceTree = "<group>"; };
+		EF8567DB17E176B10034AB79 /* quantize_pvt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quantize_pvt.c; sourceTree = "<group>"; };
+		EF8567DC17E176B10034AB79 /* quantize_pvt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantize_pvt.h; sourceTree = "<group>"; };
+		EF8567DD17E176B10034AB79 /* reservoir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = reservoir.c; sourceTree = "<group>"; };
+		EF8567DE17E176B10034AB79 /* reservoir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reservoir.h; sourceTree = "<group>"; };
+		EF8567DF17E176B10034AB79 /* set_get.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = set_get.c; sourceTree = "<group>"; };
+		EF8567E017E176B10034AB79 /* set_get.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = set_get.h; sourceTree = "<group>"; };
+		EF8567E117E176B10034AB79 /* tabinit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tabinit.c; sourceTree = "<group>"; };
+		EF8567E217E176B10034AB79 /* tabinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabinit.h; sourceTree = "<group>"; };
+		EF8567E317E176B10034AB79 /* tables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tables.c; sourceTree = "<group>"; };
+		EF8567E417E176B10034AB79 /* tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
+		EF8567E517E176B10034AB79 /* takehiro.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = takehiro.c; sourceTree = "<group>"; };
+		EF8567E617E176B10034AB79 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		EF8567E717E176B10034AB79 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		EF8567E817E176B10034AB79 /* vbrquantize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vbrquantize.c; sourceTree = "<group>"; };
+		EF8567E917E176B10034AB79 /* vbrquantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vbrquantize.h; sourceTree = "<group>"; };
+		EF8567EA17E176B10034AB79 /* VbrTag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VbrTag.c; sourceTree = "<group>"; };
+		EF8567EB17E176B10034AB79 /* VbrTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VbrTag.h; sourceTree = "<group>"; };
+		EF8567ED17E176B10034AB79 /* lame_intrin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame_intrin.h; sourceTree = "<group>"; };
+		EF8567EE17E176B10034AB79 /* xmm_quantize_sub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmm_quantize_sub.c; sourceTree = "<group>"; };
+		EF8567EF17E176B10034AB79 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		EF8567F017E176B10034AB79 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		EF85681117E2EE940034AB79 /* WLFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLFileManager.h; sourceTree = "<group>"; };
+		EF85681217E2EE940034AB79 /* WLFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLFileManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF85677217E044390034AB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85677917E044390034AB79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF85676C17E044390034AB79 = {
+			isa = PBXGroup;
+			children = (
+				EF85677A17E044390034AB79 /* WLAudioCenter */,
+				EF85677717E044390034AB79 /* Frameworks */,
+				EF85677617E044390034AB79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF85677617E044390034AB79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF85677517E044390034AB79 /* libWLAudioCenter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF85677717E044390034AB79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF85677817E044390034AB79 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF85677A17E044390034AB79 /* WLAudioCenter */ = {
+			isa = PBXGroup;
+			children = (
+				EF8567A217E176B10034AB79 /* Lame */,
+				EF85677D17E044390034AB79 /* WLAudioCenter.h */,
+				EF85677F17E044390034AB79 /* WLAudioCenter.m */,
+				EF85679017E046860034AB79 /* WLAudioCenterConfig.h */,
+				EF85679117E047A50034AB79 /* WLAudioCenterProcotols.h */,
+				EF85679217E0488D0034AB79 /* WLAudioObject.h */,
+				EF85679317E0488D0034AB79 /* WLAudioObject.m */,
+				EF85679717E05DC90034AB79 /* WLAudioRecorder.h */,
+				EF85679817E05DC90034AB79 /* WLAudioRecorder.m */,
+				EF85679A17E05DDC0034AB79 /* WLAudioPlayer.h */,
+				EF85679B17E05DDC0034AB79 /* WLAudioPlayer.m */,
+				EF85677B17E044390034AB79 /* Supporting Files */,
+				EF85681117E2EE940034AB79 /* WLFileManager.h */,
+				EF85681217E2EE940034AB79 /* WLFileManager.m */,
+			);
+			path = WLAudioCenter;
+			sourceTree = "<group>";
+		};
+		EF85677B17E044390034AB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF85677C17E044390034AB79 /* WLAudioCenter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF8567A217E176B10034AB79 /* Lame */ = {
+			isa = PBXGroup;
+			children = (
+				EF8567A317E176B10034AB79 /* bitstream.c */,
+				EF8567A417E176B10034AB79 /* bitstream.h */,
+				EF8567A517E176B10034AB79 /* common.c */,
+				EF8567A617E176B10034AB79 /* common.h */,
+				EF8567A717E176B10034AB79 /* configMS.h */,
+				EF8567A817E176B10034AB79 /* dct64_i386.c */,
+				EF8567A917E176B10034AB79 /* dct64_i386.h */,
+				EF8567AA17E176B10034AB79 /* decode_i386.c */,
+				EF8567AB17E176B10034AB79 /* decode_i386.h */,
+				EF8567AC17E176B10034AB79 /* encoder.c */,
+				EF8567AD17E176B10034AB79 /* encoder.h */,
+				EF8567AE17E176B10034AB79 /* fft.c */,
+				EF8567AF17E176B10034AB79 /* fft.h */,
+				EF8567B017E176B10034AB79 /* gain_analysis.c */,
+				EF8567B117E176B10034AB79 /* gain_analysis.h */,
+				EF8567B217E176B10034AB79 /* huffman.h */,
+				EF8567B317E176B10034AB79 /* i386 */,
+				EF8567BD17E176B10034AB79 /* id3tag.c */,
+				EF8567BE17E176B10034AB79 /* id3tag.h */,
+				EF8567BF17E176B10034AB79 /* interface.c */,
+				EF8567C017E176B10034AB79 /* interface.h */,
+				EF8567C117E176B10034AB79 /* l2tables.h */,
+				EF8567C217E176B10034AB79 /* l3side.h */,
+				EF8567C317E176B10034AB79 /* lame-analysis.h */,
+				EF8567C417E176B10034AB79 /* lame.c */,
+				EF8567C517E176B10034AB79 /* lame.h */,
+				EF8567C617E176B10034AB79 /* lame_global_flags.h */,
+				EF8567C717E176B10034AB79 /* lameconfig.h */,
+				EF8567C817E176B10034AB79 /* lameerror.h */,
+				EF8567C917E176B10034AB79 /* layer1.c */,
+				EF8567CA17E176B10034AB79 /* layer1.h */,
+				EF8567CB17E176B10034AB79 /* layer2.c */,
+				EF8567CC17E176B10034AB79 /* layer2.h */,
+				EF8567CD17E176B10034AB79 /* layer3.c */,
+				EF8567CE17E176B10034AB79 /* layer3.h */,
+				EF8567CF17E176B10034AB79 /* machine.h */,
+				EF8567D017E176B10034AB79 /* mpg123.h */,
+				EF8567D117E176B10034AB79 /* mpglib.h */,
+				EF8567D217E176B10034AB79 /* mpglib_interface.c */,
+				EF8567D317E176B10034AB79 /* newmdct.c */,
+				EF8567D417E176B10034AB79 /* newmdct.h */,
+				EF8567D517E176B10034AB79 /* Precompile_Common.h */,
+				EF8567D617E176B10034AB79 /* presets.c */,
+				EF8567D717E176B10034AB79 /* psymodel.c */,
+				EF8567D817E176B10034AB79 /* psymodel.h */,
+				EF8567D917E176B10034AB79 /* quantize.c */,
+				EF8567DA17E176B10034AB79 /* quantize.h */,
+				EF8567DB17E176B10034AB79 /* quantize_pvt.c */,
+				EF8567DC17E176B10034AB79 /* quantize_pvt.h */,
+				EF8567DD17E176B10034AB79 /* reservoir.c */,
+				EF8567DE17E176B10034AB79 /* reservoir.h */,
+				EF8567DF17E176B10034AB79 /* set_get.c */,
+				EF8567E017E176B10034AB79 /* set_get.h */,
+				EF8567E117E176B10034AB79 /* tabinit.c */,
+				EF8567E217E176B10034AB79 /* tabinit.h */,
+				EF8567E317E176B10034AB79 /* tables.c */,
+				EF8567E417E176B10034AB79 /* tables.h */,
+				EF8567E517E176B10034AB79 /* takehiro.c */,
+				EF8567E617E176B10034AB79 /* util.c */,
+				EF8567E717E176B10034AB79 /* util.h */,
+				EF8567E817E176B10034AB79 /* vbrquantize.c */,
+				EF8567E917E176B10034AB79 /* vbrquantize.h */,
+				EF8567EA17E176B10034AB79 /* VbrTag.c */,
+				EF8567EB17E176B10034AB79 /* VbrTag.h */,
+				EF8567EC17E176B10034AB79 /* vector */,
+				EF8567EF17E176B10034AB79 /* version.c */,
+				EF8567F017E176B10034AB79 /* version.h */,
+			);
+			path = Lame;
+			sourceTree = "<group>";
+		};
+		EF8567B317E176B10034AB79 /* i386 */ = {
+			isa = PBXGroup;
+			children = (
+				EF8567B417E176B10034AB79 /* choose_table.nas */,
+				EF8567B517E176B10034AB79 /* cpu_feat.nas */,
+				EF8567B617E176B10034AB79 /* fft.nas */,
+				EF8567B717E176B10034AB79 /* fft3dn.nas */,
+				EF8567B817E176B10034AB79 /* fftfpu.nas */,
+				EF8567B917E176B10034AB79 /* fftsse.nas */,
+				EF8567BA17E176B10034AB79 /* ffttbl.nas */,
+				EF8567BB17E176B10034AB79 /* nasm.h */,
+				EF8567BC17E176B10034AB79 /* scalar.nas */,
+			);
+			path = i386;
+			sourceTree = "<group>";
+		};
+		EF8567EC17E176B10034AB79 /* vector */ = {
+			isa = PBXGroup;
+			children = (
+				EF8567ED17E176B10034AB79 /* lame_intrin.h */,
+				EF8567EE17E176B10034AB79 /* xmm_quantize_sub.c */,
+			);
+			path = vector;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF85677417E044390034AB79 /* WLAudioCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF85678317E044390034AB79 /* Build configuration list for PBXNativeTarget "WLAudioCenter" */;
+			buildPhases = (
+				EF85677117E044390034AB79 /* Sources */,
+				EF85677217E044390034AB79 /* Frameworks */,
+				EF85677317E044390034AB79 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLAudioCenter;
+			productName = WLAudioCenter;
+			productReference = EF85677517E044390034AB79 /* libWLAudioCenter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF85676D17E044390034AB79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "王亮";
+			};
+			buildConfigurationList = EF85677017E044390034AB79 /* Build configuration list for PBXProject "WLAudioCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF85676C17E044390034AB79;
+			productRefGroup = EF85677617E044390034AB79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF85677417E044390034AB79 /* WLAudioCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF85677117E044390034AB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF85678017E044390034AB79 /* WLAudioCenter.m in Sources */,
+				EF85679417E0488D0034AB79 /* WLAudioObject.m in Sources */,
+				EF85679917E05DC90034AB79 /* WLAudioRecorder.m in Sources */,
+				EF85679C17E05DDC0034AB79 /* WLAudioPlayer.m in Sources */,
+				EF8567F117E176B10034AB79 /* bitstream.c in Sources */,
+				EF8567F217E176B10034AB79 /* common.c in Sources */,
+				EF8567F317E176B10034AB79 /* dct64_i386.c in Sources */,
+				EF8567F417E176B10034AB79 /* decode_i386.c in Sources */,
+				EF8567F517E176B10034AB79 /* encoder.c in Sources */,
+				EF8567F617E176B10034AB79 /* fft.c in Sources */,
+				EF8567F717E176B10034AB79 /* gain_analysis.c in Sources */,
+				EF8567F817E176B10034AB79 /* id3tag.c in Sources */,
+				EF8567F917E176B10034AB79 /* interface.c in Sources */,
+				EF8567FA17E176B10034AB79 /* lame.c in Sources */,
+				EF8567FB17E176B10034AB79 /* layer1.c in Sources */,
+				EF8567FC17E176B10034AB79 /* layer2.c in Sources */,
+				EF8567FD17E176B10034AB79 /* layer3.c in Sources */,
+				EF8567FE17E176B10034AB79 /* mpglib_interface.c in Sources */,
+				EF8567FF17E176B10034AB79 /* newmdct.c in Sources */,
+				EF85680017E176B10034AB79 /* presets.c in Sources */,
+				EF85680117E176B10034AB79 /* psymodel.c in Sources */,
+				EF85680217E176B10034AB79 /* quantize.c in Sources */,
+				EF85680317E176B10034AB79 /* quantize_pvt.c in Sources */,
+				EF85680417E176B10034AB79 /* reservoir.c in Sources */,
+				EF85680517E176B10034AB79 /* set_get.c in Sources */,
+				EF85680617E176B10034AB79 /* tabinit.c in Sources */,
+				EF85680717E176B10034AB79 /* tables.c in Sources */,
+				EF85680817E176B10034AB79 /* takehiro.c in Sources */,
+				EF85680917E176B10034AB79 /* util.c in Sources */,
+				EF85680A17E176B10034AB79 /* vbrquantize.c in Sources */,
+				EF85680B17E176B10034AB79 /* VbrTag.c in Sources */,
+				EF85680C17E176B10034AB79 /* xmm_quantize_sub.c in Sources */,
+				EF85680D17E176B10034AB79 /* version.c in Sources */,
+				EF85681317E2EE940034AB79 /* WLFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF85678117E044390034AB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF85678217E044390034AB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF85678417E044390034AB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WLAudioCenter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLAudioCenter/WLAudioCenter-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF85678517E044390034AB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WLAudioCenter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WLAudioCenter/WLAudioCenter-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF85677017E044390034AB79 /* Build configuration list for PBXProject "WLAudioCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85678117E044390034AB79 /* Debug */,
+				EF85678217E044390034AB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF85678317E044390034AB79 /* Build configuration list for PBXNativeTarget "WLAudioCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF85678417E044390034AB79 /* Debug */,
+				EF85678517E044390034AB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF85676D17E044390034AB79 /* Project object */;
+}
